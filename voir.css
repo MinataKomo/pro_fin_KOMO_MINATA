@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 100px;
+
+}
+#btn-1, .div_btn1{
+    background: blue;
+    padding: 10px 100px;
+}
+#btn-2, .div_btn2{
+    background: rgb(135, 135, 160);
+    padding: 10px 100px;
+}
+#btn-3, .div_btn3{
+    background: rgb(0, 255, 21);
+}
+.app{
+    /* width: 100%;
+    height: 90vh;
+    background: gray; */
+}
+.div{
+    display: flex;
+   
+    background-color: azure;
+  
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.div img{
+  
+    width: 90%;
+    margin: 2px;
+}
+.div video{
+    width: 90%;
+}
+@media screen and (max-width: 300px) {
+    .div{
+        /* display: flex; */
+        display: grid;
+       
+      
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

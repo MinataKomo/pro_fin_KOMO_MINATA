@@ -1,0 +1,23 @@
+video{
+    
+    cursor: pointer;
+}
+.sect{
+    display: flex;
+    justify-content: space-around;
+}
+.but{
+    text-align: center;
+}
+.but button{
+    padding: 10px;
+    background-color: blue;
+    
+    border: none;
+    border-radius: 10px;
+}
+.but button a{
+    text-decoration: none;
+    color: aliceblue;
+   font-size: 20px;
+}
